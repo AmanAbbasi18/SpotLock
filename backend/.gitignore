@@ -1,0 +1,26 @@
+# Backend Maven & Java .gitignore
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+logs/
+
+# Database files
+*.mv.db
+*.trace.db
+
+# IDE Files
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+.vscode/
+
+# Environment files
+.env
+*.local
